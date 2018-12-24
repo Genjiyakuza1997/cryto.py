@@ -1,0 +1,32 @@
+#import random
+import time
+
+password = ""
+attempted_password = ""
+list_of_char = 0123456789abcdefghijklmnopqrstuvwxyz
+for letter in range(0, random,randint(10000,25000)):
+    password += list _of _char[random,randint(0,61)]
+
+def timeit(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        print( " the function "{._name_} "took" {:.15f} "second to finish".format(func, time.time()-start))
+        return result
+    return wrapper
+
+
+@timeit
+
+dev solve_password(word):
+    global attempted_password
+    for character in word
+        for entry in list_of_char:
+            if character == entry:
+               attempted_password += character
+               continue
+            return attempted_password
+
+
+print("the list of password are as follows:")
+print(format(slove_password(password), len(password)))
